@@ -70,11 +70,11 @@
 	        text-decoration: underline;
 	    }
         .h1 {
-            font-size: 21px;
+            font-size: 24px!important;
             font-weight: bold;            
         }
         .h2 {
-            font-size: 18px;
+            font-size: 21px!important;
             font-weight: bold;            
         }
          
@@ -120,11 +120,18 @@
 </head>
 
 <!--
+
+full width image
 ======== 640 ========
+
+one-column
 =|=================|=
 10       620      10
-=|========|========|=
+
+two-column
+=|=======|=|=======|=
 10  300  20   300  10
+
 -->
 
 <body>

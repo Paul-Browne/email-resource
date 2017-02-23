@@ -1,5 +1,7 @@
 #####full width image
 
+natural dimensions of the image _can_ be larger, or small than 640, but they will look better at exactly 640px wide (especially in outlook)
+
 ```html
 <table width="100%">
     <tr>

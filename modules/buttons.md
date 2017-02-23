@@ -1,3 +1,13 @@
+####Buttons
+
+don't ask why the button markup is dozens of lines, it just is.
+color change `background: #0d1974`
+radius change `background-radius: 3px`
+href change *all* the `href`s
+
+######TODO 
+add smaller button
+
 #####button
 
 ```html
@@ -23,6 +33,8 @@
 ```
 
 #####fixed width button
+
+change `width="150"` to the desired width
 
 ```html
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
