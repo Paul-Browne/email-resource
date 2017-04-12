@@ -24,3 +24,4 @@ Yahoo! | 2%
 Windows Mail | 1 %
 Windows Live Mail | 1 %
 
+######80% of emails are opened in either Apple or Gmail
