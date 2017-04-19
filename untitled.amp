@@ -1,0 +1,476 @@
+%%[
+
+    Set @OB1c = Lookup(@dataExt, 'OFFER block1 copy', 'LanguageCode', @setLanguage);
+    Set @OB2c = Lookup(@dataExt, 'OFFER block2 copy', 'LanguageCode', @setLanguage);
+    Set @OB3c = Lookup(@dataExt, 'OFFER block3 copy', 'LanguageCode', @setLanguage);
+    Set @OB4c = Lookup(@dataExt, 'OFFER block4 copy', 'LanguageCode', @setLanguage);
+
+    Set @OB1i = Lookup(@dataExt, 'OFFER block1 image', 'LanguageCode', @setLanguage);
+    Set @OB2i = Lookup(@dataExt, 'OFFER block2 image', 'LanguageCode', @setLanguage);
+    Set @OB3i = Lookup(@dataExt, 'OFFER block3 image', 'LanguageCode', @setLanguage);
+    Set @OB4i = Lookup(@dataExt, 'OFFER block4 image', 'LanguageCode', @setLanguage);
+
+    Set @OB1l = Lookup(@dataExt, 'OFFER block1 link', 'LanguageCode', @setLanguage);
+    Set @OB2l = Lookup(@dataExt, 'OFFER block2 link', 'LanguageCode', @setLanguage);
+    Set @OB3l = Lookup(@dataExt, 'OFFER block3 link', 'LanguageCode', @setLanguage);
+    Set @OB4l = Lookup(@dataExt, 'OFFER block4 link', 'LanguageCode', @setLanguage);
+
+    Set @OB1u = Lookup(@dataExt, 'OFFER block1 utmcontent', 'LanguageCode', @setLanguage);
+    Set @OB2u = Lookup(@dataExt, 'OFFER block2 utmcontent', 'LanguageCode', @setLanguage);
+    Set @OB3u = Lookup(@dataExt, 'OFFER block3 utmcontent', 'LanguageCode', @setLanguage);
+    Set @OB4u = Lookup(@dataExt, 'OFFER block4 utmcontent', 'LanguageCode', @setLanguage);
+
+]%%
+
+
+%%[IF NOT Empty(@OB4c) THEN]%%
+<!-- 4 offers -->
+<table width="100%">
+    <tr>
+        <td class="two-column">
+            <!--[if (gte mso 9)|(IE)]>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr>
+            <td width="50%" valign="top">
+            <![endif]-->
+            <div class="column">
+                <table width="100%">
+                    <tr>
+                        <td class="four-column">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                            <td width="50%" valign="top">
+                            <![endif]-->
+                            <div class="column">
+                                <table width="100%">
+                                    <tr>
+                                        <td class="inner contents inner10">
+                                            <a href="%%=RedirectTo(@OB1l)=%%" style="text-decoration: none;">
+                                                <img src="%%=TreatAsContent(@OB1i)=%%" width="135" alt="" />
+                                            </a>
+                                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                                <tr>
+                                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                            </table>
+
+                                            <p style="color:#0d1974; text-align: center; font-size: 18px">
+                                                
+<a href="%%=RedirectTo(@OB1l)=%%" style="text-decoration: none; color: #0d1974">
+    %%=TreatAsContent(@OB1c)=%%
+</a>
+
+                                            </p>
+                                            
+                                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                                <tr>
+                                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td><td width="50%" valign="top">
+                            <![endif]-->
+                            <div class="column">
+                                <table width="100%">
+                                    <tr>
+                                        <td class="inner contents inner10">
+                                            <a href="%%=RedirectTo(@OB2l)=%%" style="text-decoration: none;">
+                                                <img src="%%=TreatAsContent(@OB2i)=%%" width="135" alt="" />
+                                            </a>
+                                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                                <tr>
+                                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                            </table>
+
+                                            <p style="color:#0d1974; text-align: center; font-size: 18px">
+                                                
+<a href="%%=RedirectTo(@OB2l)=%%" style="text-decoration: none; color: #0d1974">
+    %%=TreatAsContent(@OB2c)=%%
+</a>
+
+                                            </p>
+                                            
+                                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                                <tr>
+                                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td><td width="50%" valign="top">
+            <![endif]-->
+            <div class="column">
+                <table width="100%">
+                    <tr>
+                        <td class="four-column">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                            <td width="50%" valign="top">
+                            <![endif]-->
+                            <div class="column">
+                                <table width="100%">
+                                    <tr>
+                                        <td class="inner contents inner10">
+                                            <a href="%%=RedirectTo(@OB3l)=%%" style="text-decoration: none;">
+                                                <img src="%%=TreatAsContent(@OB3i)=%%" width="135" alt="" />
+                                            </a>
+                                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                                <tr>
+                                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                            </table>
+
+                                            <p style="color:#0d1974; text-align: center; font-size: 18px">
+                                                
+<a href="%%=RedirectTo(@OB3l)=%%" style="text-decoration: none; color: #0d1974">
+    %%=TreatAsContent(@OB3c)=%%
+</a>
+
+                                            </p>
+                                            
+                                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                                <tr>
+                                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td><td width="50%" valign="top">
+                            <![endif]-->
+                            <div class="column">
+                                <table width="100%">
+                                    <tr>
+                                        <td class="inner contents inner10">
+                                            <a href="%%=RedirectTo(@OB4l)=%%" style="text-decoration: none;">
+                                                <img src="%%=TreatAsContent(@OB4i)=%%" width="135" alt="" />
+                                            </a>
+                                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                                <tr>
+                                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                            </table>
+
+                                            <p style="color:#0d1974; text-align: center; font-size: 18px">
+                                                
+<a href="%%=RedirectTo(@OB4l)=%%" style="text-decoration: none; color: #0d1974">
+    %%=TreatAsContent(@OB4c)=%%
+</a>
+
+                                            </p>
+                                            
+                                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                                <tr>
+                                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+</table>
+
+%%[ENDIF]%%
+
+
+
+
+
+
+%%[IF NOT Empty(@OB3c) AND Empty(@OB4c) THEN]%%
+<!-- 3 offers -->
+<table width="100%">
+    <tr>
+        <td class="three-column">
+            <!--[if (gte mso 9)|(IE)]>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr>
+            <td width="12.5%" valign="top">
+            <![endif]-->
+            
+            <!--[if (gte mso 9)|(IE)]>
+            </td><td width="25%" valign="top">
+            <![endif]-->
+            <div class="column">
+                <table width="100%">
+                    <tr>
+                        <td class="inner contents inner10">
+                            <a href="%%=RedirectTo(@OB1l)=%%" style="text-decoration: none;">
+                                <img src="%%=TreatAsContent(@OB1i)=%%" width="135" alt="" />
+                            </a>
+                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                <tr>
+                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                </tr>
+                            </table>
+
+                            <p style="color:#0d1974; text-align: center; font-size: 18px">
+                                
+<a href="%%=RedirectTo(@OB1l)=%%" style="text-decoration: none; color: #0d1974">
+%%=TreatAsContent(@OB1c)=%%
+</a>
+
+                            </p>
+                            
+                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                <tr>
+                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td><td width="25%" valign="top">
+            <![endif]-->
+            <div class="column">
+                <table width="100%">
+                    <tr>
+                        <td class="inner contents inner10">
+                            <a href="%%=RedirectTo(@OB2l)=%%" style="text-decoration: none;">
+                                <img src="%%=TreatAsContent(@OB2i)=%%" width="135" alt="" />
+                            </a>
+                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                <tr>
+                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                </tr>
+                            </table>
+
+                            <p style="color:#0d1974; text-align: center; font-size: 18px">
+                                
+<a href="%%=RedirectTo(@OB2l)=%%" style="text-decoration: none; color: #0d1974">
+%%=TreatAsContent(@OB2c)=%%
+</a>
+
+                            </p>
+                            
+                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                <tr>
+                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td><td width="25%" valign="top">
+            <![endif]-->            
+            <div class="column">
+                <table width="100%">
+                    <tr>
+                        <td class="inner contents inner10">
+                            <a href="%%=RedirectTo(@OB3l)=%%" style="text-decoration: none;">
+                                <img src="%%=TreatAsContent(@OB3i)=%%" width="135" alt="" />
+                            </a>
+                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                <tr>
+                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                </tr>
+                            </table>
+
+                            <p style="color:#0d1974; text-align: center; font-size: 18px">
+                                
+<a href="%%=RedirectTo(@OB3l)=%%" style="text-decoration: none; color: #0d1974">
+%%=TreatAsContent(@OB3c)=%%
+</a>
+
+                            </p>
+                            
+                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                <tr>
+                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!--[if (gte mso 9)|(IE)]>
+            </td><td width="12.5%" valign="top">
+            <![endif]-->            
+
+
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>                            
+</table>
+
+
+
+%%[ENDIF]%%
+
+
+
+
+
+
+%%[IF NOT Empty(@OB2c) AND Empty(@OB3c) AND Empty(@OB4c) THEN]%%
+<!-- 2 offers -->
+<table width="100%">
+    <tr>
+        <td class="two-column">
+            <!--[if (gte mso 9)|(IE)]>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr>
+            <td width="25%" valign="top">
+            <![endif]-->
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+
+
+            <td width="50%" valign="top">
+            <![endif]-->
+            <div class="column">
+                <table width="100%">
+                    <tr>
+                        <td class="four-column">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                            <td width="50%" valign="top">
+                            <![endif]-->
+                            <div class="column">
+                                <table width="100%">
+                                    <tr>
+                                        <td class="inner contents inner10">
+                                            <a href="%%=RedirectTo(@OB1l)=%%" style="text-decoration: none;">
+                                                <img src="%%=TreatAsContent(@OB1i)=%%" width="135" alt="" />
+                                            </a>
+                                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                                <tr>
+                                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                            </table>
+
+                                            <p style="color:#0d1974; text-align: center; font-size: 18px">
+                                                
+<a href="%%=RedirectTo(@OB1l)=%%" style="text-decoration: none; color: #0d1974">
+    %%=TreatAsContent(@OB1c)=%%
+</a>
+
+                                            </p>
+                                            
+                                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                                <tr>
+                                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td><td width="50%" valign="top">
+                            <![endif]-->
+                            <div class="column">
+                                <table width="100%">
+                                    <tr>
+                                        <td class="inner contents inner10">
+                                            <a href="%%=RedirectTo(@OB2l)=%%" style="text-decoration: none;">
+                                                <img src="%%=TreatAsContent(@OB2i)=%%" width="135" alt="" />
+                                            </a>
+                                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                                <tr>
+                                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                            </table>
+
+                                            <p style="color:#0d1974; text-align: center; font-size: 18px">
+                                                
+<a href="%%=RedirectTo(@OB2l)=%%" style="text-decoration: none; color: #0d1974">
+    %%=TreatAsContent(@OB2c)=%%
+</a>
+
+                                            </p>
+                                            
+                                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                                                <tr>
+                                                    <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+
+
+            <td width="25%" valign="top">
+            <![endif]-->
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            
+
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+</table>
+
+%%[ENDIF]%%
+
+
