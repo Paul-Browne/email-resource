@@ -34,7 +34,6 @@ ET location: `Shared Items > Shared Templates > base template 2018`
     }
 
     img {
-        display: block;
         border: 0;
         vertical-align: middle;
     }
