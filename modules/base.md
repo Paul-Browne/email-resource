@@ -124,6 +124,10 @@ ET location:
         font-weight: normal;
     }
 
+    .font-italic {
+        font-style: italic;
+    }
+    
     td.text-center {
         text-align: center;
     }
