@@ -30,4 +30,4 @@ Add this at the end of the global `style` in the `head` You only need to declare
 }
 ```
 
-The reason you need to place the `.custom-font` inside the `@media screen` query is that Outlook doesn't accept custom fonts and will always fallback to times new roman, even if you declare Helvetica, Arial or Sans-serif in the font stack
+The reason you need to place the `.custom-font` inside the `@media screen` query is that Outlook doesn't accept custom fonts and will always fallback to times new roman, even if you declare Helvetica, Arial or Sans-serif in the font stack. But since Outlook also ignores anything inside a `@media` query, the custom font stack will be ignored
