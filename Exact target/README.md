@@ -17,3 +17,7 @@ The Purpose section is the first section in the email - a bit like a hero - News
 |PURPOSE cta|Book now|
 |PURPOSE color|#d7797d|
 |PURPOSE utm|purpose+flights+to+asia+gb+newsletter|
+
+You can add color within the purpose copy like so `<b style='color:#0d1973'>Beijing</b>` if needed
+
+The PURPOSE color value is optional, if blank the color of the heading and cta button will be finnair blue (#0d1973)
