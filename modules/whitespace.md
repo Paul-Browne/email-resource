@@ -1,5 +1,6 @@
+vertical padding between any elements, consistent across all email clients
 
-
+eg. 15px
 ```html
 <table width="100%">
     <tr>
