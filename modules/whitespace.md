@@ -9,7 +9,7 @@ eg. 15px
 </table>
 ```
 
-also more consistent than `<br>` or `style='padding-bottom:15px'` 
+also more consistent than using `<br>` or `style='padding-bottom:15px'` 
 
 
 ```html
