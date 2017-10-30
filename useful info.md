@@ -1,4 +1,4 @@
-### Dont's
+## Dont's
 
 Dont use `<h1>, <h2> or <h3>` elements, they style inconsistently across email clients
 
