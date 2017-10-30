@@ -4,6 +4,8 @@
 
 [two columns](https://github.com/frc/email-resources-and-templates/blob/master/modules/two%20column.md) - Two columns on desktop, one column on mobile
 
+[four columns](https://github.com/frc/email-resources-and-templates/blob/master/modules/four%20columns.md) - Four column layout for desktop and two columns on mobile
+
 [buttons](https://github.com/frc/email-resources-and-templates/blob/master/modules/buttons.md) - Simple buttons that work and render consistently across all email clients
 
 [whitespace](https://github.com/frc/email-resources-and-templates/blob/master/modules/whitespace.md) - Consistent way to add whitespace between two elements, since `padding`, `margin` and `<br>` can be different across email clients
