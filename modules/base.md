@@ -36,6 +36,7 @@ ET location:
     }
 
     img {
+        display: block;
         border: 0;
         vertical-align: middle;
     }
