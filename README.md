@@ -1,7 +1,7 @@
 # email-resources-and-templates
 templates for emails inc ET specific syntax
 
-####testing environment
+#### testing environment
 [email on acid](https://www.emailonacid.com/login)
 - login: frantic.newsletters
 - password: in 1Password
@@ -9,19 +9,24 @@ templates for emails inc ET specific syntax
 
 
 
-####Email Client Market Share (January - February 2017)
+#### Email Client Market Share (September 2017)
+[source](https://emailclientmarketshare.com/)
 
 Client|Share
 ---|---
-Apple iPhone | 31%
-Gmail | 20%
-Apple iPad | 12%
-Google Android | 8%
-Apple Mail | 7%
-Outlook | 6%
-Outlook.com | 5%
-Yahoo! | 2%
-Windows Mail | 1 %
+Apple iPhone | 29%
+Gmail | 23%
+Apple iPad | 11%
+Apple Mail | 8%
+Outlook | 7%
+Samsung Email App | 5%
+Outlook.com | 4%
+Google Android | 3%
+Yahoo! | 3%
 Windows Live Mail | 1 %
 
-######80% of emails are opened in either Apple or Gmail
+###### ~80% of emails are opened in either Apple or Gmail
+###### ~10% in Outlook
+###### ~10% in Other clients
+
+
