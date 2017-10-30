@@ -19,3 +19,25 @@ Instead wrap the `<a>` in a table and add the padding to the `<td>`
   </tr>
 </table>
 ```
+---
+Don't use `text-decoration:none` in a class, or directly on the `a`
+```css
+a {
+  text-decoration: none;
+}
+```
+
+Instead write it as an inline style like 
+`<a style="text-decoration: none">`
+
+---
+Don't nest tables within an anchor
+```html
+<a href="some-link">
+  <table width="150px">
+    <tr>
+      <td style='padding:10px'>some text</td>
+    </tr>
+  </table>
+</a>
+```
