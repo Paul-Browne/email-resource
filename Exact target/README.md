@@ -58,3 +58,5 @@ It is possible to use a custom color, price, image or href for an offer like so
 `DEL|#123123|{499 €}|finnair.com/custom-image.jpg|https://finnair.com/gb/gb/some-custom-page`
 
 ###### the color must be a 6-digit hex code, the price must be inside brackets `{}` and the image must be either a .jpg or .png
+
+If a replacement offer is declared then ET will check if the user has a future booking (up to a month) to one of the original 4 destinations, and replace it with the replacement offer. (It will also check the replacement offers, so that it doesn't use a the replacement offer if a user has also booked a flight to one of them)
