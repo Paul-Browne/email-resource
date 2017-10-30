@@ -1,6 +1,4 @@
-ET location:
-
-`Shared Items > Shared Templates > base template 2018`
+ET location: `Shared Items > Shared Templates > base template 2018`
 
 
 ```html
