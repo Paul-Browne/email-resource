@@ -22,6 +22,8 @@ You can add color within the purpose copy like so `<b style='color:#0d1973'>Beij
 
 The PURPOSE color value is optional, if blank the color of the heading and cta button will be finnair blue (#0d1973)
 
+---
+
 ### OFFERS BLOCK
 
 The offers block contains 4 offers with an image and copy text like "Delhi from 789 €"
@@ -40,4 +42,19 @@ The offers block contains 4 offers with an image and copy text like "Delhi from 
 |OFFERS BLOCK 2|MIL&vert;biz|
 |OFFERS BLOCK 3|VER|
 |OFFERS BLOCK 4|NAP|
+|OFFERS BLOCK 1 replacement|ABC|
+|OFFERS BLOCK 2 replacement|DEF&vert;biz|
+|OFFERS BLOCK 3 replacement|GHI|
+|OFFERS BLOCK 4 replacement|JKL|
 
+`OFFERS BLOCK heading`, `copy`, `cta`, `color`, `shape` and `personalise` are optional, and can be left blank. replacement offers are also optional
+
+You only need to pass the 3-letter airport code for each individual offer, and ET will generate the destination name, price, href, image and utm from the offers page data ext. `Shared Items > Shared Data Extensions > __offers page`
+
+Adding `biz` after the 3-digit airport code will fetch the business class offer (default economy, if blank)
+
+It is possible to use a custom color, price, image or href for an offer like so
+
+`DEL|#123123|{499 €}|finnair.com/custom-image.jpg|https://finnair.com/gb/gb/some-custom-page`
+
+###### the color must be a 6-digit hex code, the price must be inside brackets `{}` and the image must be either a .jpg or .png
