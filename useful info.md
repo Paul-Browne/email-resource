@@ -1,5 +1,11 @@
 ## Dont's
 
+Don't use @media queries, they won't work in Outlook
+
+Instead use the [two column](https://github.com/frc/email-resources-and-templates/blob/master/modules/two%20column.md) module to make the layout 'reponsive'
+
+---
+
 Dont use `<h1>, <h2> or <h3>` elements, they style inconsistently across email clients
 
 Instead use `<p class="h1">`
