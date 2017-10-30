@@ -41,3 +41,7 @@ Don't nest tables within an anchor
   </table>
 </a>
 ```
+
+---
+
+Don't put text in an image. Many people - and some clients - set images to **not** be downloaded by default, resulting in blank white space in your emails
