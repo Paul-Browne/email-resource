@@ -43,3 +43,5 @@
     </tr>
 </table>
 ```
+
+[divider with logo](https://github.com/frc/email-resources-and-templates/blob/master/images/divider-with-logo.jpg)
