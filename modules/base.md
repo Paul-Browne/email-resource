@@ -83,7 +83,7 @@ ET location: `Shared Items > Shared Templates > base template 2018`
     .h2,
     .h3 {
         Margin: 0;
-        line-height: 1.4em;
+        line-height: 1.3em;
     }
 
     p {
