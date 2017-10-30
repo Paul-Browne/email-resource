@@ -1,3 +1,9 @@
+##### four column layout
+
+four columns on desktop
+
+two columns on mobile
+
 Four column layout, columns content is only 140px wide, 160px minus 20px of padding (10px either side). It is possible to decrease the padding by replacing the class `inner` with `inner5`, or you can increase the padding by using `inner20`
 
 ```html
