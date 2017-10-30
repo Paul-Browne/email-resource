@@ -6,4 +6,14 @@ Each Email is made up of modules
 
 The Purpose section is the first section in the email - a bit like a hero - Newsletters and Plusmail's both have these, and they usully follow the same layout. Image, Header text, copy text and cta button
 
-[example purpose]()
+[example purpose](https://github.com/frc/email-resources-and-templates/blob/master/images/purpose.jpg)
+
+|NAME|VALUE|
+|---|---|
+|PURPOSE heading|Escape to Asia|
+|PURPOSE copy|Book flights to &lt;b&gt;Beijing&lt;/b&gt;, &lt;b&gt;Phuket&lt;/b&gt; or other exciting destinations in Asia...|
+|PURPOSE href|https://finnair.com/gb/gb?CAMPAIGN_ID=12345|
+|PURPOSE image|http://image.email.finnair.com/lib/0d7c7d/m/3/GB_image.jpg|
+|PURPOSE cta|Book now|
+|PURPOSE color|#d7797d|
+|PURPOSE utm|purpose+flights+to+asia+gb+newsletter|
