@@ -26,7 +26,7 @@ The PURPOSE color value is optional, if blank the color of the heading and cta b
 
 ### OFFERS BLOCK
 
-The offers block contains 4 offers with an image and copy text like "Delhi from 789 €"
+The offers block contains 4 offers with an image and copy text like "Delhi from 789 €". If present, this block will normally come straight after the Purpose section
 
 |NAME|VALUE|
 |---|---|
@@ -67,7 +67,7 @@ If a replacement offer is declared then ET will check if the user has a future b
 
 ### OFFERS TABLE
 
-The offers table will show a list of up to 12 offers in a simple table, the table can have one or two columns
+The offers table will show a list of up to 12 offers in a simple table, the table can have one or two columns, and can be customized by color
 
 
 |NAME|VALUE|
@@ -115,3 +115,29 @@ The offers table will show a list of up to 12 offers in a simple table, the tabl
 |&nbsp;|&nbsp;|
 |OFFERS TABLE col 2 replacement 1|ABC&vert;biz|
 |OFFERS TABLE col 2 replacement 2|DEF&vert;biz|
+
+Table offers can be customized the same way that block offers can be (but no image), eg.
+
+`BCN|{399 €}|#abc123|https://www.finnair.com/some-link`
+
+###### the color must be a 6-digit hex code and the price must be inside brackets `{}`
+
+All headings, subheadings and cta's are optional
+
+---
+
+### PREMIUMS
+
+Premiums are generally 3rd party offers/adverts that come under the offers table. They have two equal columns, image-text (sales letters), or text-image (plusmail). There can be up to 12 premiums
+
+|NAME|VALUE|
+|---|---|
+|PREMIUM 1 heading|Rent a car from Hertz|
+|PREMIUM 1 copy|Rent a car from 100's of destinations using Hertz...|
+|PREMIUM 1 href|https://finnair.com/gb/gb/rent-a-car|
+|PREMIUM 1 image|http://image.email.finnair.com/lib/0d7c7d/m/3/hertz.jpg|
+|PREMIUM 1 cta|Read more|
+|PREMIUM 1 order|text-image|
+|PREMIUM 1 color|#d7797d|
+|PREMIUM 1 utm|premium+rent+a+car+hertz+gb+newsletter|
+
