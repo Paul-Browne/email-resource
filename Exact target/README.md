@@ -152,10 +152,11 @@ Premiums are generally 3rd party offers/adverts that come under the offers table
 |custom field 5|An extra headline|
 |custom field 6|a bunch of extra copy text for you to read|
 
-`PREMIUM order` defines how the premium looks,
+`PREMIUM order` defines how the premium looks on desktop. On mobile the image will always be above the text
 
 `text-image` text on the left - image on the right
 
-`image-text` image on the left - text on the right (default, will be used if blank)
+`image-text` image on the left - text on the right (default, will be used if blank also)
+
 
 **new feature** Instead of having ALT premium modules, you can create a new custom module to use instead of the normal premium one. Just use the name of the module as the value for `PREMIUM x custom` in the data extension. (x is the number of the premium) The new custom module can use PREMIUM heading, copy, href etc. **and** it can use custom fields as well, if needed. (same as custom purpose modules)
