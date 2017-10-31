@@ -17,10 +17,17 @@ The Purpose section is the first section in the email - a bit like a hero - News
 |PURPOSE cta|Book now|
 |PURPOSE color|#d7797d|
 |PURPOSE utm|purpose+flights+to+asia+gb+newsletter|
+|&nbsp;|&nbsp;|
+|PURPOSE custom|some custom purpose module|
+|PURPOSE custom field 1|some other button text|
+|PURPOSE custom field 2|https://finnair.com/gb/gb?CAMPAIGN_ID=67890|
+|PURPOSE custom field 3|purpose+other+destinations|
 
 You can add color within the purpose copy like so `<b style='color:#0d1973'>Beijing</b>` if needed
 
 The PURPOSE color value is optional, if blank the color of the heading and cta button will be finnair blue (#0d1973)
+
+**new feature** Instead of having ALT purpose modules, you can create a new custom module to use instead of the normal purpose one. Just use the name of the module as the value for `PURPOSE custom` in the data extension. The new custom module can use PURPOSE heading, copy, href etc. **and** it can use PURPOSE custom fields as well, if needed.
 
 ---
 
