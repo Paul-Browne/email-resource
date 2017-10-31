@@ -38,10 +38,12 @@ The offers block contains 4 offers with an image and copy text like "Delhi from 
 |OFFERS BLOCK shape|diamond|
 |OFFERS BLOCK personalise|true|
 |OFFERS BLOCK utm|offers+block+flights+to+italy+gb+plusmail|
+|&nbsp;|&nbsp;|
 |OFFERS BLOCK 1|ROM|
 |OFFERS BLOCK 2|MIL&vert;biz|
 |OFFERS BLOCK 3|VER|
 |OFFERS BLOCK 4|NAP|
+|&nbsp;|&nbsp;|
 |OFFERS BLOCK 1 replacement|ABC|
 |OFFERS BLOCK 2 replacement|DEF&vert;biz|
 |OFFERS BLOCK 3 replacement|GHI|
@@ -59,4 +61,57 @@ It is possible to use a custom color, price, image or href for an offer like so
 
 ###### the color must be a 6-digit hex code, the price must be inside brackets `{}` and the image must be either a .jpg or .png
 
-If a replacement offer is declared then ET will check if the user has a future booking (up to a month) to one of the original 4 destinations, and replace it with the replacement offer. (It will also check the replacement offers, so that it doesn't use a the replacement offer if a user has also booked a flight to one of them)
+If a replacement offer is declared then ET will check if the user has a future booking (up to a month) to one of the original 4 destinations, and replace it with the replacement offer. (It will also check the replacement offers, so that it doesn't use a the replacement offer if a user has also booked a flight to one of them). Same rules for customizing apply
+
+---
+
+### OFFERS TABLE
+
+The offers table will show a list of up to 12 offers in a simple table, the table can have one or two columns
+
+
+|NAME|VALUE|
+|---|---|
+|OFFERS TABLE columns|2|
+|OFFERS TABLE heading|Our latest offers to Asia|
+|OFFERS TABLE copy|Book flights to Beijing, Phuket or elsewhere in Asia...|
+|OFFERS TABLE color|#c0ffee|
+|OFFERS TABLE cta|See all offers|
+|OFFERS TABLE href|https://finnair.com/some-link|
+|OFFERS TABLE utm|some+utm+stuff|
+|&nbsp;|&nbsp;|
+|OFFERS TABLE col 1 color|#f00f00|
+|OFFERS TABLE col 1 heading|Economy class offers|
+|OFFERS TABLE col 1 subheading left|Destination|
+|OFFERS TABLE col 1 subheading right|Return from|
+|OFFERS TABLE col 1 personalize|true|
+|OFFERS TABLE col 1 cta|See all economy offers to Asia|
+|OFFERS TABLE col 1 href|https://finnair.com/some-link|
+|OFFERS TABLE col 1 utm|some+utm+stuff|
+|&nbsp;|&nbsp;|
+|OFFERS TABLE col 2 color|#b00b00|
+|OFFERS TABLE col 2 heading|Business class offers|
+|OFFERS TABLE col 2 subheading left|Destination|
+|OFFERS TABLE col 2 subheading right|Return from|
+|OFFERS TABLE col 2 personalize|true|
+|OFFERS TABLE col 2 cta|See all business offers to Asia|
+|OFFERS TABLE col 2 href|https://finnair.com/some-link|
+|OFFERS TABLE col 2 utm|some+utm+stuff|
+|&nbsp;|&nbsp;|
+|OFFERS TABLE col 1 offer 1|BJS|
+|OFFERS TABLE col 1 offer 2|CAN|
+|OFFERS TABLE col 1 offer 3|GZN|
+|OFFERS TABLE col 1 offer 4|PVG|
+|OFFERS TABLE col 1 offer 5|XIY|
+|&nbsp;|&nbsp;|
+|OFFERS TABLE col 2 offer 1|BJS&vert;biz|
+|OFFERS TABLE col 2 offer 2|CAN&vert;biz|
+|OFFERS TABLE col 2 offer 3|GZN&vert;biz|
+|OFFERS TABLE col 2 offer 4|PVG&vert;biz|
+|OFFERS TABLE col 2 offer 5|XIY&vert;biz|
+|&nbsp;|&nbsp;|
+|OFFERS TABLE col 1 replacement 1|ABC|
+|OFFERS TABLE col 1 replacement 2|DEF|
+|&nbsp;|&nbsp;|
+|OFFERS TABLE col 2 replacement 1|ABC&vert;biz|
+|OFFERS TABLE col 2 replacement 2|DEF&vert;biz|
