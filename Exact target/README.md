@@ -51,10 +51,10 @@ The offers block contains 4 offers with an image and copy text like "Delhi from 
 |OFFERS BLOCK 3|dest="VER" class="B" image="https://image-path.jpg" |
 |OFFERS BLOCK 4|dest="NAP" utm="some+thing+else" price="789 €" |
 |&nbsp;|&nbsp;|
-|OFFERS BLOCK 1 replacement|ABC|
-|OFFERS BLOCK 2 replacement|DEF&vert;biz|
-|OFFERS BLOCK 3 replacement|GHI|
-|OFFERS BLOCK 4 replacement|JKL|
+|OFFERS BLOCK 1 replacement|dest="ABC"|
+|OFFERS BLOCK 2 replacement|dest="DEF"|
+|OFFERS BLOCK 3 replacement|dest="GHI"|
+|OFFERS BLOCK 4 replacement|dest="JKL"|
 
 `OFFERS BLOCK heading`, `copy`, `cta`, `color`, `shape` and `personalise` are optional, and can be left blank. replacement offers are also optional
 
@@ -64,11 +64,13 @@ Adding `class="B"` after the 3-digit airport code will fetch the business class 
 
 Adding `price="123 €"` will pass this price instead of using the offers feed price
 
-Adding `image="https://finnair.com/go/some-image.jpg"` will use a custom image, instead of the default ones [found here](https://www.finnair.com/go/responsive/Images/newsletters/300x300_destination/ROM.jpg)
+Adding `image="https://finnair.com/go/some-image.jpg"` will use a custom image, instead of the [these](https://www.finnair.com/go/responsive/Images/newsletters/300x300_destination/ROM.jpg)
 
 Adding `color="#d7797d"` will pass a custom color for the price
 
 Adding `href="https://finnair.com/some-custom-link"` will pass a custom link for the offer instead of using [these](https://www.finnair.com/fi/gb/offers?OFFER_ID=4200)
+
+Adding `utm="some+custom+utm"` will pass a custom utm, instead of `flights+ROM+123€`
 
 
 If a replacement offer is declared then ET will check if the user has a future booking (up to a month) to one of the original 4 destinations, and replace it with the replacement offer. (It will also check the replacement offers, so that it doesn't use a the replacement offer if a user has also booked a flight to one of them). Same rules for customizing apply
@@ -108,29 +110,25 @@ The offers table will show a list of up to 12 offers in a simple table, the tabl
 |OFFERS TABLE col 2 href|https://finnair.com/some-link|
 |OFFERS TABLE col 2 utm|some+utm+stuff|
 |&nbsp;|&nbsp;|
-|OFFERS TABLE col 1 offer 1|BJS|
-|OFFERS TABLE col 1 offer 2|CAN|
-|OFFERS TABLE col 1 offer 3|GZN|
-|OFFERS TABLE col 1 offer 4|PVG|
-|OFFERS TABLE col 1 offer 5|XIY|
+|OFFERS TABLE col 1 offer 1|dest="BJS"|
+|OFFERS TABLE col 1 offer 2|dest="CAN"|
+|OFFERS TABLE col 1 offer 3|dest="GZN"|
+|OFFERS TABLE col 1 offer 4|dest="PVG"|
+|OFFERS TABLE col 1 offer 5|dest="XIY"|
 |&nbsp;|&nbsp;|
-|OFFERS TABLE col 2 offer 1|BJS&vert;biz|
-|OFFERS TABLE col 2 offer 2|CAN&vert;biz|
-|OFFERS TABLE col 2 offer 3|GZN&vert;biz|
-|OFFERS TABLE col 2 offer 4|PVG&vert;biz|
-|OFFERS TABLE col 2 offer 5|XIY&vert;biz|
+|OFFERS TABLE col 2 offer 1|dest="BJS" class="B"|
+|OFFERS TABLE col 2 offer 2|dest="CAN" class="B"|
+|OFFERS TABLE col 2 offer 3|dest="GZN" class="B"|
+|OFFERS TABLE col 2 offer 4|dest="PVG" class="B"|
+|OFFERS TABLE col 2 offer 5|dest="XIY" class="B"|
 |&nbsp;|&nbsp;|
-|OFFERS TABLE col 1 replacement 1|ABC|
-|OFFERS TABLE col 1 replacement 2|DEF|
+|OFFERS TABLE col 1 replacement 1|dest="ABC"|
+|OFFERS TABLE col 1 replacement 2|dest="DEF"|
 |&nbsp;|&nbsp;|
-|OFFERS TABLE col 2 replacement 1|ABC&vert;biz|
-|OFFERS TABLE col 2 replacement 2|DEF&vert;biz|
+|OFFERS TABLE col 2 replacement 1|dest="ABC" class="B"|
+|OFFERS TABLE col 2 replacement 2|dest="DEF" class="B"|
 
-Table offers can be customized the same way that block offers can be (but no image), eg.
-
-`BCN|{399 €}|#abc123|https://www.finnair.com/some-link`
-
-###### the color must be a 6-digit hex code and the price must be inside brackets `{}`
+Table offers can be customized the same way that block offers can be (but no image)
 
 All headings, subheadings and cta's are optional
 
