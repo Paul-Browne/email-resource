@@ -48,9 +48,9 @@ one column on mobile: image above text
     </tr>
 </table>
 ```
-[image-text](https://github.com/frc/email-resources-and-templates/blob/master/images/image-text.jpg)
+![image-text](https://github.com/frc/email-resources-and-templates/blob/master/images/image-text.jpg)
 
-[two columns mobile](https://github.com/frc/email-resources-and-templates/blob/master/images/two%20column%20mobile.jpg)
+![two columns mobile](https://github.com/frc/email-resources-and-templates/blob/master/images/two%20column%20mobile.jpg)
 
 ### text-image
 two columns on desktop: text on the left, image on the right
@@ -104,4 +104,4 @@ using `dir="rtl"` it is possible to reverse the order of the columns for desktop
     </tr>
 </table>
 ```
-[text-image](https://github.com/frc/email-resources-and-templates/blob/master/images/text-image.jpg)
+![text-image](https://github.com/frc/email-resources-and-templates/blob/master/images/text-image.jpg)
