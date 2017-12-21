@@ -46,10 +46,10 @@ The offers block contains 4 offers with an image and copy text like "Delhi from 
 |OFFERS BLOCK personalise|true|
 |OFFERS BLOCK utm|offers+block+flights+to+italy+gb+plusmail|
 |&nbsp;|&nbsp;|
-|OFFERS BLOCK 1|ROM|
-|OFFERS BLOCK 2|MIL&vert;biz|
-|OFFERS BLOCK 3|VER|
-|OFFERS BLOCK 4|NAP|
+|OFFERS BLOCK 1|dest="ROM"|
+|OFFERS BLOCK 2|dest="BKK" class="B"|
+|OFFERS BLOCK 3|dest="VER" class="B" image="https://image-path.jpg" |
+|OFFERS BLOCK 4|dest="NAP" utm="some+thing+else" price="789 €" |
 |&nbsp;|&nbsp;|
 |OFFERS BLOCK 1 replacement|ABC|
 |OFFERS BLOCK 2 replacement|DEF&vert;biz|
@@ -58,15 +58,18 @@ The offers block contains 4 offers with an image and copy text like "Delhi from 
 
 `OFFERS BLOCK heading`, `copy`, `cta`, `color`, `shape` and `personalise` are optional, and can be left blank. replacement offers are also optional
 
-You only need to pass the 3-letter airport code for each individual offer, and ET will generate the destination name, price, href, image and utm from the offers page data ext. `Shared Items > Shared Data Extensions > __offers page`
+You only need to pass the 3-letter airport code for each individual offer, and ET will generate the destination name, price, and href from the offers json feed [example](https://api.finnair.com/v1/offerfeed/offers?locale=fi_FI). It will also generate the image and utm 
 
-Adding `biz` after the 3-digit airport code will fetch the business class offer (default economy, if blank)
+Adding `class="B"` after the 3-digit airport code will fetch the business class offer (default economy, if blank)
 
-It is possible to use a custom color, price, image or href for an offer like so
+Adding `price="123 €"` will pass this price instead of using the offers feed price
 
-`DEL|#123123|{499 €}|finnair.com/custom-image.jpg|https://finnair.com/gb/gb/some-custom-page`
+Adding `image="https://finnair.com/go/some-image.jpg"` will use a custom image, instead of the default ones [found here](https://www.finnair.com/go/responsive/Images/newsletters/300x300_destination/ROM.jpg)
 
-###### the color must be a 6-digit hex code, the price must be inside brackets `{}` and the image must be either a .jpg or .png
+Adding `color="#d7797d"` will pass a custom color for the price
+
+Adding `href="https://finnair.com/some-custom-link"` will pass a custom link for the offer instead of using [these](https://www.finnair.com/fi/gb/offers?OFFER_ID=4200)
+
 
 If a replacement offer is declared then ET will check if the user has a future booking (up to a month) to one of the original 4 destinations, and replace it with the replacement offer. (It will also check the replacement offers, so that it doesn't use a the replacement offer if a user has also booked a flight to one of them). Same rules for customizing apply
 
