@@ -48,7 +48,13 @@ one column on mobile: image above text
     </tr>
 </table>
 ```
+
+#### Desktop
+
 ![image-text](https://github.com/frc/email-resources-and-templates/blob/master/images/image-text.jpg)
+
+
+#### Mobile
 
 ![two columns mobile](https://github.com/frc/email-resources-and-templates/blob/master/images/two%20column%20mobile.jpg)
 
