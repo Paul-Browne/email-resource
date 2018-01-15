@@ -70,6 +70,10 @@ Adding `color="#d7797d"` will pass a custom color for the price
 
 Adding `href="https://finnair.com/some-custom-link"` will pass a custom link for the offer instead of using [these](https://www.finnair.com/fi/gb/offers?OFFER_ID=4200)
 
+Adding `tripTypeCode="OW"` will use only offers of  trip type = One-way. (Default is R (return), if blank)
+
+Adding `offerType="Miles and Cash"` will only use offers of type money+points. (Default is "Regular flight offer", if blank) other options are "Plus offer" and maybe "Award offer"
+
 Adding `utm="some+custom+utm"` will pass a custom utm, instead of `flights+ROM+123€`
 
 
